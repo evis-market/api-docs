@@ -31,7 +31,7 @@ URL: `/api/v1/auth/jwt/grant`
 
 Method: `POST`
 
-### Data Params
+**Request**
     {
       "grant_type": "password",
       "login": "email_or_phone_or_erc20_wallet",
@@ -43,7 +43,7 @@ Login can be email, phone or ERC-20 wallet.
     curl ...
 
 
-### Successful response
+**Successful response**
 
     HTTP Code: 200
     {
@@ -53,7 +53,7 @@ Login can be email, phone or ERC-20 wallet.
       "token_type": "Bearer"
     }
 
-### Failed Response
+**Failed Response**
 
     HTTP Code: 400
 
