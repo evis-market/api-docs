@@ -24,7 +24,7 @@ Table of Contents
 ```
 
 ## Authentication by login
-----
+
 Returns JWT access and refresh tokens.
 
 URL: `/api/v1/auth/jwt/grant`
@@ -32,37 +32,32 @@ URL: `/api/v1/auth/jwt/grant`
 Method: `POST`
 
 ### Data Params
-```json
-{
-  "grant_type": "password",
-  "login": "email_or_phone_or_erc20_wallet",
-  "password": "user_password"
-}
-```
-*Login can be email, phone or ERC-20 wallet.*
+    {
+      "grant_type": "password",
+      "login": "email_or_phone_or_erc20_wallet",
+      "password": "user_password"
+    }
+
+Login can be email, phone or ERC-20 wallet.
 
     curl ...
 
+
 ### Successful response
 
-HTTP Code: 200
-
-```json
-{
-  "status": "OK",
-  "access_token": "....jwt_token_data...",
-  "refresh_token": "....jwt_token_data...",
-  "token_type": "Bearer"
-}
-```
+    HTTP Code: 200
+    {
+      "status": "OK",
+      "access_token": "....jwt_token_data...",
+      "refresh_token": "....jwt_token_data...",
+      "token_type": "Bearer"
+    }
 
 ### Failed Response
-HTTP Code: 400
 
-```json
-{
-  "err_code": 400,
-  "err_msg" : "login or password is invalid"
-}
-```
+    HTTP Code: 400
 
+    {
+      "err_code": 400,
+      "err_msg" : "login or password is invalid"
+    }
