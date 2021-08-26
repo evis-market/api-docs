@@ -67,7 +67,7 @@ Table of Contents
 
       "error": {
           "code": 400,
-          "msg" : "bad request"
+          "msg" : "bad request",
           "invalid_fields": {
             "name": "to long, 256 symbols maximum",
             "email": "is invalid"
