@@ -66,7 +66,7 @@ Method: `POST`
 
     {
       "grant_type": "refresh_token",
-      "refresh_token": "....jwt_token_data...",
+      "refresh_token": "....jwt_token_data..."
     }
 
 **Successful response**
