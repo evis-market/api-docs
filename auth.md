@@ -35,14 +35,18 @@ Login can be email, phone
       "token_type": "Bearer"
     }
 
-**Failed Response**
+**Failed response**
 
     HTTP status Code: 400
+
+    {
+      "status": "ERR",
 
       "error": {
           "code": 400,
           "msg" : "login or password is invalid"
       }
+    }
 
 
 ## Refresh tokens
@@ -71,11 +75,15 @@ Method: `POST`
       "token_type": "Bearer"
     }
 
-**Failed Response**
+**Failed response**
 
-    HTTP status Code: 400
+    HTTP status Code: 404
+
+    {
+      "status": "ERR",
 
       "error": {
-          "code": 400,
+          "code": 404,
           "msg" : "refresh token not found"
       }
+    }

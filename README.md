@@ -43,7 +43,7 @@ Table of Contents
     }
 
 
-## Error Response example
+## Error response example
 
     HTTP status Code: 400
 
