@@ -14,6 +14,7 @@ Table of Contents
 * [Authentication](auth.md)
 * [Users](users.md) Signup, password recovery, email confirmation etc.
 * [Sellers](sellers.md)
+* [Categories](categories.md)
 
 ## Introduction
 
