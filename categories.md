@@ -36,7 +36,8 @@ Method: `GET`
           "name": "Category1 name",
           "descr": "Category1 description",
           "logo_url": "https://domain.com/logo1.jpg",
-          "slug": "category1"
+          "slug": "category1",
+          "sort_id": 1
         },
         {
           "id": 2,
@@ -44,7 +45,8 @@ Method: `GET`
           "name": "Category2 name",
           "descr": "Category2 description",
           "logo_url": "https://domain.com/logo2.jpg",
-          "slug": "category2"
+          "slug": "category2",
+          "sort_id": 90
         }
       ]
     }
