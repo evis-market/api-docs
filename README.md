@@ -1,63 +1,57 @@
 # api-docs
 
-API documentation for [web-interface-backend](https://github.com/evis-market/web-interface-backend)
+Evis.Market API documentation for [web-interface-backend](https://github.com/evis-market/web-interface-backend)
 
 Table of Contents
 =================
 
 * [Introduction](#introduction)
 * [HTTP response codes](#http-response-codes)
-* [Success response example](#success-response-example)
+* [Error codes](#error-codes)
+* [Successful response example](#successful-response-example)
 * [Error response example](#error-response-example)
 * [Authentication](auth.md)
 
+## Introduction
 
-### HTTP response codes
-```
-200: Success
-400: Bad request
-401: Unauthorized
-403: Forbidden
-404: Cannot be found
-405: Method not allowed
-50X: Server Error
-```
 
-## Authentication by login
+## HTTP response codes
 
-Returns JWT access and refresh tokens.
+    200: Success
+    400: Bad request
+    401: Unauthorized
+    403: Forbidden
+    404: Cannot be found
+    405: Method not allowed
+    50X: Server Error
 
-URL: `/api/v1/auth/jwt/grant`
 
-Method: `POST`
+## Error codes
 
-**Request**
+    400: Bar request
+    401: Unauthorized
+    403: Forbidden
+    404: Cannot be found
+
+
+## Successful response example
+
+    HTTP status Code: 200
+
     {
-      "grant_type": "password",
-      "login": "email_or_phone_or_erc20_wallet",
-      "password": "user_password"
+      "status": "OK"
     }
 
-Login can be email, phone or ERC-20 wallet.
 
-    curl ...
+## Error Response example
 
-
-**Successful response**
-
-    HTTP Code: 200
-    {
-      "status": "OK",
-      "access_token": "....jwt_token_data...",
-      "refresh_token": "....jwt_token_data...",
-      "token_type": "Bearer"
-    }
-
-**Failed Response**
-
-    HTTP Code: 400
+    HTTP status Code: 400
 
     {
-      "err_code": 400,
-      "err_msg" : "login or password is invalid"
+      "status": "ERR",
+
+      "error": {
+          "code": 400,
+          "msg" : "login or password is invalid"
+      }
     }
