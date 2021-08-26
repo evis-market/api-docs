@@ -12,6 +12,7 @@ Table of Contents
 * [Error response example](#error-response-example)
 * [Authentication](auth.md)
 * [Users](users.md) Signup, password recovery, email confirmation etc.
+* [Sellers](sellers.md)
 
 ## Introduction
 
@@ -54,5 +55,22 @@ Table of Contents
       "error": {
           "code": 400,
           "msg" : "login or password is invalid"
+      }
+    }
+
+
+
+    HTTP status Code: 400
+
+    {
+      "status": "ERR",
+
+      "error": {
+          "code": 400,
+          "msg" : "bad request"
+          "invalid_fields": {
+            "name": "to long, 256 symbols maximum",
+            "email": "is invalid"
+          }
       }
     }
