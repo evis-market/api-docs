@@ -25,7 +25,7 @@ Method: `POST`
       "last_name": "Mamonov",
       "phone": "15552223456",
       "email": "test@test.com",
-      "password": "some_very_strong_password",
+      "password": "some_very_strong_password"
     }
 
 **Required fields**
@@ -53,7 +53,7 @@ Method: `POST`
 
           "invalid_fields": {
             "email": "invalid format",
-            "password": "too short, 8 symbols minimum",
+            "password": "too short, 8 symbols minimum"
           },
 
           "msg" : "bad request"
