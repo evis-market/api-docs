@@ -2,6 +2,15 @@
 
 Evis.Market users API documentation.
 
+Table of Contents
+=================
+
+* [Signup by email or phone](#signup-by-email-or-phone)
+* [Send confirmation email](#send-confirmation-email)
+* [Confirm email](#confirm-email)
+* [Reset password by email](#reset-password-by-email)
+* [Set password by secret code](#set-password-by-secret-code)
+
 
 ## Signup by email or phone
 
@@ -63,7 +72,7 @@ Method: `POST`
 **Request**
 
     {
-      "email": "test@test.com",
+      "email": "test@test.com"
     }
 
 **Successful response**
@@ -71,7 +80,7 @@ Method: `POST`
     HTTP status Code: 200
 
     {
-      "status": "OK",
+      "status": "OK"
     }
 
 **Failed response**
@@ -106,7 +115,7 @@ Method: `POST`
     HTTP status Code: 200
 
     {
-      "status": "OK",
+      "status": "OK"
     }
 
 **Failed response**
@@ -134,7 +143,7 @@ Method: `POST`
 **Request**
 
     {
-      "email": "test@test.com",
+      "email": "test@test.com"
     }
 
 **Successful response**
@@ -142,7 +151,7 @@ Method: `POST`
     HTTP status Code: 200
 
     {
-      "status": "OK",
+      "status": "OK"
     }
 
 **Failed response**
@@ -179,7 +188,7 @@ Method: `POST`
     HTTP status Code: 200
 
     {
-      "status": "OK",
+      "status": "OK"
     }
 
 **Failed response**
