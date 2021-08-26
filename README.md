@@ -10,6 +10,7 @@ Table of Contents
 * [Error codes](#error-codes)
 * [Successful response example](#successful-response-example)
 * [Error response example](#error-response-example)
+* [Error response example with invalid fields](#error-response-example-with-invalid-fields)
 * [Authentication](auth.md)
 * [Users](users.md) Signup, password recovery, email confirmation etc.
 * [Sellers](sellers.md)
@@ -59,7 +60,7 @@ Table of Contents
     }
 
 
-
+# Error response example with invalid fields
     HTTP status Code: 400
 
     {
