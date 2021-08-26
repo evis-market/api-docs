@@ -11,7 +11,8 @@ Table of Contents
 * [Successful response example](#successful-response-example)
 * [Error response example](#error-response-example)
 * [Authentication](auth.md)
-* [Registration](registration.md)
+* [Users](users.md)
+    Signup, password recovery, email confirmation etc.
 
 ## Introduction
 
