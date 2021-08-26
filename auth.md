@@ -2,6 +2,11 @@
 
 Evis.Market authentication API documentation.
 
+Table of Contents
+=================
+
+* [Authentication by email or phone](#authentication-by-email-or-phone)
+* [Refresh tokens](#refresh-tokens)
 
 ## Authentication by email or phone
 
