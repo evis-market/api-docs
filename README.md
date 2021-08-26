@@ -15,6 +15,8 @@ Table of Contents
 * [Users](users.md) Signup, password recovery, email confirmation etc.
 * [Sellers](sellers.md)
 * [Categories](categories.md)
+* [Geo regions](geo_regions.md)
+* [Languages](langs.md)
 
 ## Introduction
 
