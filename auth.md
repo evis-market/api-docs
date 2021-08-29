@@ -49,7 +49,7 @@ Login can be email, phone
 
       "error": {
           "code": 400,
-          "msg" : "login or password is invalid"
+          "msg": "invalid credentials"
       }
     }
 
@@ -82,13 +82,13 @@ Method: `POST`
 
 **Failed response**
 
-    HTTP status Code: 404
+    HTTP status Code: 400
 
     {
       "status": "ERR",
 
       "error": {
-          "code": 404,
-          "msg" : "refresh token not found"
+          "code": 400,
+          "msg": "invalid token"
       }
     }
