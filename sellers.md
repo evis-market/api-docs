@@ -71,21 +71,20 @@ Method: `PUT`
       "descr": "Seller description",
       "wallet_for_payments_erc20": "0x....",
 
-      "sites": [
-          { "url": "https://domain1.com/" },
-          { "url": "https://domain2.com/" }
-        ],
-
-        "phones": [
-          { "phone": "1231231231", "comment": "phone1 comment" },
-          { "phone": "1231231232", "comment": "phone2 comment" }
-        ],
-
-        "emails": [
-          { "email": "email1@test.com", "comment": "email1 comment" },
-          { "email": "email2@test.com", "comment": "email2 comment" }
-        ]
+      "contacts": [
+        { "type_id": 1, "value": "https://domain1.com/", "comment": "main site" },
+        { "type_id": 1, "value": "https://domain2.com/", "comment": "" },
+        { "type_id": 2, "value": "1231231231", "comment": "phone1 comment" },
+        { "type_id": 2, "value": "1231231232", "comment": "phone2 comment" }
+        { "type_id": 3: "value": "email1@test.com", "comment": "email1 comment" },
+        { "type_id": 3: "value": "email2@test.com", "comment": "" },
+      ]
     }
+
+Type ID's:
+* `1` - URL
+* `2` - phone
+* `3` - email
 
 **Successful response**
 
