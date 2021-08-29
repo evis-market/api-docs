@@ -20,6 +20,10 @@ Table of Contents
 
 ## Introduction
 
+Production BASE URL: `https://evis.market`
+
+Development BASE URL: `https://dev.evis.market`
+
 
 ## HTTP response codes
 
