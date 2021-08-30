@@ -22,7 +22,7 @@ Table of Contents
 
 Production BASE URL: `https://evis.market`
 
-Development BASE URL: `https://dev.evis.market`
+Test BASE URL: `https://test.evis.market`
 
 
 ## HTTP response codes
