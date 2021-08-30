@@ -34,7 +34,7 @@ Method: `GET`
           { "type_id": 2, "value": "1231231231", "comment": "phone1 comment" },
           { "type_id": 2, "value": "1231231232", "comment": "phone2 comment" }
           { "type_id": 3: "value": "email1@test.com", "comment": "email1 comment" },
-          { "type_id": 3: "value": "email2@test.com", "comment": "" },
+          { "type_id": 3: "value": "email2@test.com", "comment": "" }
         ]
       }
     }
@@ -77,7 +77,7 @@ Method: `PUT`
         { "type_id": 2, "value": "1231231231", "comment": "phone1 comment" },
         { "type_id": 2, "value": "1231231232", "comment": "phone2 comment" }
         { "type_id": 3: "value": "email1@test.com", "comment": "email1 comment" },
-        { "type_id": 3: "value": "email2@test.com", "comment": "" },
+        { "type_id": 3: "value": "email2@test.com", "comment": "" }
       ]
     }
 
@@ -107,7 +107,11 @@ Type ID's:
 
           "invalid_fields": {
             "name": "to long, 256 symbols maximum",
-            "email": "email2#test.com is invalid"
+            "email": "invalid format",
+            "contacts": [
+              { "type_id": 2, "value": "1231231231", "error": "invalid format" },
+              { "type_id": 2, "value": "1231231232", "error": "invalid format" }
+            ]
           }
       }
     }
