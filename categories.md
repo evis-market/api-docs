@@ -37,7 +37,12 @@ Method: `GET`
           "descr": "Category1 description",
           "logo_url": "https://domain.com/logo1.jpg",
           "slug": "category1",
-          "sort_id": 1
+          "sort_id": 1,
+          "recommended_for": [
+              { "id": 1, "name": "For personal use" },
+              { "id": 2, "name": "For traders" },
+              { "id": 3, "name": "For analytics" }
+          ]
         },
         {
           "id": 2,
@@ -47,6 +52,9 @@ Method: `GET`
           "logo_url": "https://domain.com/logo2.jpg",
           "slug": "category2",
           "sort_id": 90
+          "recommended_for": [
+              { "id": 1, "name": "For personal use" }
+          ]
         }
       ]
     }
