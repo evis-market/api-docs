@@ -12,11 +12,13 @@ Table of Contents
 * [Error response example](#error-response-example)
 * [Error response example with invalid fields](#error-response-example-with-invalid-fields)
 * [Authentication](auth.md)
-* [Users](users.md) Signup, password recovery, email confirmation etc.
-* [Sellers](sellers.md)
-* [Categories](categories.md)
 * [Geo regions](geo_regions.md)
 * [Languages](langs.md)
+* [Categories](categories.md)
+* [Users](users.md) Signup, password recovery, email confirmation etc.
+* [Sellers](sellers.md)
+* [Seller products management](seller_products_management.md)
+* [Seller products public](seller_products_public.md)
 
 ## Introduction
 
