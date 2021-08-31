@@ -86,7 +86,36 @@ Method: `GET`
 
 
 ## Get product detailed information
-Получить детальную информация о товаре + полные данные продавца + версия
+
+URL: `/api/v1/products_catalog/product/:seller_product_id`
+
+Method: `GET`
+
+**URL parameters**
+
+* seller_product_id - seller product ID, example: 1
+
+**Successful response**
+
+    HTTP status Code: 200
+
+    {
+      "status": "OK",
+
+      "seller_product": {
+        "name": "Product1 name",
+        "descr": "Product1 description",
+        ...
+      },
+
+      "seller": {
+        "name": "Seller name",
+        "descr": "Seller description",
+        "rating": 4.96,
+        ...
+      }
+    }
+
 
 ## Get related products
 
