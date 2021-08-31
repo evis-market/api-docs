@@ -17,7 +17,7 @@ Table of Contents
 * [Categories](categories.md)
 * [Users](users.md) Signup, password recovery, email confirmation etc.
 * [Sellers](sellers.md)
-* [Seller products management](seller_products.md)
+* [Seller products](seller_products.md)
 * [Products catalog](products_catalog.md)
 
 ## Introduction
