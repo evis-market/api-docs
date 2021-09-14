@@ -35,6 +35,7 @@ Test BASE URL: `https://test.evis.market`
     403: Forbidden
     404: Cannot be found
     405: Method not allowed
+    409: Conflict
     50X: Server Error
 
 
@@ -44,6 +45,7 @@ Test BASE URL: `https://test.evis.market`
     401: Unauthorized
     403: Forbidden
     404: Cannot be found
+    409: Conflict, alreay exists
 
 
 ## Successful response example
