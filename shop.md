@@ -14,7 +14,7 @@ Table of Contents
 
 ## List not empty categories
 
-URL: `/api/v1/products_catalog/categories/`
+URL: `/api/v1/shop/categories/`
 
 Method: `GET`
 
@@ -40,7 +40,7 @@ Method: `GET`
 
 ## List category products
 
-URL: `/api/v1/products_catalog/products/`
+URL: `/api/v1/shop/products/`
 
 Method: `GET`
 
@@ -64,7 +64,7 @@ all filter options:
 
 ## Get filter options
 
-URL: `/api/v1/products_catalog/filter_options/`
+URL: `/api/v1/shop/filter_options/`
 
 Method: `GET`
 
@@ -87,7 +87,7 @@ Method: `GET`
 
 ## Get product detailed information
 
-URL: `/api/v1/products_catalog/product/:seller_product_id`
+URL: `/api/v1/shop/product/:seller_product_id`
 
 Method: `GET`
 
@@ -119,7 +119,7 @@ Method: `GET`
 
 ## Get related products
 
-URL: `/api/v1/products_catalog/related_products/:seller_product_id`
+URL: `/api/v1/shop/related_products/:seller_product_id`
 
 Method: `GET`
 
@@ -157,7 +157,7 @@ Method: `GET`
 
 ## Get all options in one query
 
-URL: `/api/v1/products_catalog/all_products_options`
+URL: `/api/v1/shop/all_products_options`
 
 Method: `GET`
 
