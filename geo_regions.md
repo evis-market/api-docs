@@ -32,20 +32,16 @@ Method: `GET`
       "geo_regions": [
         {
           "id": 1,
+          "name": "Europe",
           "parent_id": null,
-          "name": "geo region1 name",
-          "logo_url": "https://domain.com/logo1.jpg",
-          "slug": "geo region1",
-          "sort_id": 1
+          "iso_code": "EU"
         },
         {
-          "id": 2,
-          "parent_id": null,
-          "name": "geo region2 name",
-          "logo_url": "https://domain.com/logo2.jpg",
-          "slug": "geo region2",
-          "sort_id": 90
-        }
+          "id": 1,
+          "name": "Spain",
+          "parent_id": 1,
+          "iso_code": "ESP"
+        },
       ]
     }
 
