@@ -50,6 +50,14 @@ all filter options:
 
 * category_ids - products category ID, example: 1,2,3
 
+pagination:
+
+* offset
+* limit
+* order_by
+
+    valid order_by values: name, -name, price, -price, rating, -rating
+
 **Successful response**
 
     HTTP status Code: 200
