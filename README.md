@@ -18,7 +18,8 @@ Table of Contents
 * [Users](users.md) Signup, password recovery, email confirmation etc.
 * [Sellers](sellers.md)
 * [Seller products](seller_products.md)
-* [Products catalog](shop.md)
+* [Shop - products catalog](shop.md)
+* [Sales](sales.md)
 
 ## Introduction
 
