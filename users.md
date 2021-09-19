@@ -10,6 +10,9 @@ Table of Contents
 * [Confirm email](#confirm-email)
 * [Reset password by email](#reset-password-by-email)
 * [Set password by secret code](#set-password-by-secret-code)
+* [Get logged in user profile](#get-logged-in-user-profile)
+* [Update logged in user profile](#update-logged-in-user-profile)
+* [Change logged in user password](#change-logged-in-user-password)
 
 
 ## Signup by email or phone
@@ -204,3 +207,116 @@ Method: `POST`
       }
     }
 
+## Get logged in user profile
+URL: `/api/v1/users/my/profile`
+
+Method: `GET`
+
+**Successful response**
+
+    HTTP status Code: 200
+
+    {
+      "status": "OK"
+      "profile": {
+        "first_name": "Evgeny",
+        "last_name": "Mamonov",
+        "phone": "15552223456",
+        "email": "test@test.com",
+        "wallet_erc20": "0xfe121fa29f72c239d289efaa5ab11fef94a2e946"
+      }
+    }
+
+**Failed response**
+
+    HTTP status Code: 401
+
+    {
+      "status": "ERR",
+
+      "error": {
+          "code": 401,
+          "msg" : "Please provide token"
+      }
+    }
+
+
+## Update logged in user profile
+
+URL: `/api/v1/users/my/profile`
+
+Method: `PUT`
+
+**Request**
+
+    {
+      "first_name": "Evgeny",
+      "last_name": "Mamonov",
+      "phone": "15552223456",
+      "email": "test@test.com",
+      "wallet_erc20": "0xfe121fa29f72c239d289efaa5ab11fef94a2e946"
+    }
+
+**Required fields**
+* one of: phone, email, wallet_erc20
+
+**Successful response**
+
+    HTTP status Code: 200
+
+    {
+      "status": "OK"
+    }
+
+**Failed response**
+
+    HTTP status Code: 405
+
+    {
+      "status": "ERR",
+
+      "error": {
+          "code": 405,
+
+          "invalid_fields": {
+            "email": "alredy exists",
+            "password": "too short, 8 symbols minimum"
+          },
+
+          "msg" : "bad request"
+      }
+    }
+
+## Change logged in user password
+
+URL: `/api/v1/users/my/password`
+
+Method: `PUT`
+
+**Request**
+
+    {
+      "password": "new_very_strong_password"
+    }
+
+**Successful response**
+
+    HTTP status Code: 200
+
+    {
+      "status": "OK"
+    }
+
+**Failed response**
+
+    HTTP status Code: 405
+
+    {
+      "status": "ERR",
+
+      "error": {
+          "code": 405,
+
+          "msg" : "password too short, 8 symbols minimum"
+      }
+    }
