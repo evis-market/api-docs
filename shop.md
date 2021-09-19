@@ -180,5 +180,6 @@ Method: `GET`
       "langs": [],
       "geo_regions": [],
       "data_types": [],
+      "data_formats": [],
       "data_delivery_types": []
     }
