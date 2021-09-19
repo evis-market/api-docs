@@ -165,7 +165,7 @@ Method: `GET`
 
 ## Get all options in one query
 
-URL: `/api/v1/shop/all_products_options`
+URL: `/api/v1/shop/all_options`
 
 Method: `GET`
 
