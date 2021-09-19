@@ -103,6 +103,11 @@ Method: `GET`
 
 * seller_product_id - seller product ID, example: 1
 
+**Query parameters**
+
+* related_products_limit - default 20
+
+
 **Successful response**
 
     HTTP status Code: 200
@@ -122,6 +127,10 @@ Method: `GET`
         "rating": 4.96,
         ...
       }
+
+      "related_products": [
+        ...
+      ]
     }
 
 
