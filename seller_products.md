@@ -104,7 +104,7 @@ Method: `GET`
 
 ## Create product
 
-URL: `/api/v1/sellers/settings/my/`
+URL: `/api/v1/seller_products/my/`
 
 Method: `POST`
 
@@ -169,7 +169,7 @@ Method: `POST`
 
 ## Update product
 
-URL: `/api/v1/sellers/settings/my/:seller_product_id`
+URL: `/api/v1/seller_products/my/:seller_product_id`
 
 Method: `PUT`
 
@@ -178,7 +178,7 @@ This endpoint is equal to create product except method `PUT`.
 
 ## Delete product
 
-URL: `/api/v1/sellers/settings/my/:seller_product_id`
+URL: `/api/v1/seller_products/my/:seller_product_id`
 
 Method: `DELETE`
 
