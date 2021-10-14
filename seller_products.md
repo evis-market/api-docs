@@ -158,9 +158,10 @@ Method: `POST`
           "invalid_fields": {
             "name": "required field",
             "descr": "to long, 300 symbols maximum",
-            "data_urls": [
-                { "data_delivery_type_id": 1, "data_format_id": 1, "error": "invalid format" }
-            ]
+            "data_urls": {
+                "0": "invalid format",
+                "1": "invalid format"
+            }
           }
       }
     }

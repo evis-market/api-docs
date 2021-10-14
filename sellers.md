@@ -108,10 +108,10 @@ Type ID's:
           "invalid_fields": {
             "name": "to long, 256 symbols maximum",
             "email": "invalid format",
-            "contacts": [
-              { "type_id": 2, "value": "1231231231", "error": "invalid format" },
-              { "type_id": 2, "value": "1231231232", "error": "invalid format" }
-            ]
+            "contacts": {
+              "0": "invalid format",
+              "1": "invalid format"
+            }
           }
       }
     }
