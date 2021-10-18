@@ -49,6 +49,9 @@ Method: `GET`
 all filter options:
 
 * category_ids - products category ID, example: 1,2,3
+* name - product name
+
+IMPORTANT: one of fields `category_ids`, `name` is required.
 
 pagination:
 
