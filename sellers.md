@@ -24,7 +24,7 @@ Method: `GET`
         "user_id": 1,
         "name": "Seller name",
         "descr": "Seller description",
-        "logo_url": "https://domain.com/logo.jpg",
+        "logo_url": "/media/seller_logo/6a401d84-5595-473c-9268-b6b9f013839d.png",
         "wallet_for_payments_erc20": "0x....",
         "rating": 4.97,
 
@@ -70,6 +70,7 @@ Method: `PUT`
       "name": "Seller name",
       "descr": "Seller description",
       "wallet_for_payments_erc20": "0x....",
+      "logo_url": "6a401d84-5595-473c-9268-b6b9f013839d",
 
       "contacts": [
         { "type_id": 1, "value": "https://domain1.com/", "comment": "main site" },
