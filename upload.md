@@ -1,8 +1,8 @@
-# Seller products management
+# File Upload management
 
-Evis.Market seller products management API documentation.
+Evis.Market file uploader management API documentation.
 
-This service available for authenticated seller only.
+This service manages file uploading
 
 Table of Contents
 =================
