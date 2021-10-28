@@ -5,7 +5,7 @@ Evis.Market users API documentation.
 Table of Contents
 =================
 
-* [Signup by email or phone](#signup-by-email-or-phone)
+* [Signup](#signup)
 * [Send confirmation email](#send-confirmation-email)
 * [Confirm email](#confirm-email)
 * [Reset password by email](#reset-password-by-email)
@@ -15,7 +15,7 @@ Table of Contents
 * [Change logged in user password](#change-logged-in-user-password)
 
 
-## Signup by email or phone
+## Signup
 
 URL: `/api/v1/users/signup`
 
@@ -28,11 +28,12 @@ Method: `POST`
       "last_name": "Mamonov",
       "phone": "15552223456",
       "email": "test@test.com",
+      "wallet_erc20": "0x006AA9300257Bb2B47e84a1AF63B6FdaF7D68AF6",
       "password": "some_very_strong_password"
     }
 
 **Required fields**
-* phone or email (one of)
+* one of: phone, email, wallet_erc20
 * password
 
 **Successful response**
