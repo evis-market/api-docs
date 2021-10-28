@@ -5,7 +5,7 @@ Evis.Market authentication API documentation.
 Table of Contents
 =================
 
-* [Authentication by login: email/phone/erc-20 wallet](#authentication-by-login-email-phone-erc-20-wallet)
+* [Authentication by login: email/phone/erc-20 wallet](#authentication-by-login-emailphoneerc-20-wallet)
 * [Refresh tokens](#refresh-tokens)
 
 ## Authentication by login: email/phone/erc-20 wallet
