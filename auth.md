@@ -5,10 +5,10 @@ Evis.Market authentication API documentation.
 Table of Contents
 =================
 
-* [Authentication by email or phone](#authentication-by-email-or-phone)
+* [Authentication by login: email/phone/erc-20 wallet](#authentication-by-login-email-phone-erc-20-wallet)
 * [Refresh tokens](#refresh-tokens)
 
-## Authentication by email or phone
+## Authentication by login: email/phone/erc-20 wallet
 
 Returns JWT access and refresh tokens.
 
@@ -20,7 +20,7 @@ Method: `POST`
 
     {
       "grant_type": "password",
-      "login": "email_or_phone",
+      "login": "email_or_phone_or_erc-20_wallet",
       "password": "user_password"
     }
 
