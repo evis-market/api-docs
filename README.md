@@ -12,6 +12,7 @@ Table of Contents
 * [Error response example](#error-response-example)
 * [Error response example with invalid fields](#error-response-example-with-invalid-fields)
 * [Authentication](auth.md)
+* [Files upload](upload.md)
 * [Geo regions](geo_regions.md)
 * [Languages](langs.md)
 * [Categories](categories.md)
