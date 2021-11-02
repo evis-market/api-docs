@@ -70,7 +70,7 @@ Method: `PUT`
       "name": "Seller name",
       "descr": "Seller description",
       "wallet_for_payments_erc20": "0x....",
-      "logo_url": "6a401d84-5595-473c-9268-b6b9f013839d",
+      "logo": "6a401d84-5595-473c-9268-b6b9f013839d",
 
       "contacts": [
         { "type_id": 1, "value": "https://domain1.com/", "comment": "main site" },
