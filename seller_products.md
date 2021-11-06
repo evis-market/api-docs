@@ -24,18 +24,39 @@ Method: `GET`
 
     {
       "status": "OK",
-
       "products": [
         {
           "name": "Product1 name",
           "descr": "Product1 description",
-          ...
+          "id": 1,
+          "price_by_request": false,
+          "price_per_month": 9,
+          "price_per_one_time": 0,
+          "price_per_usage": true,
+          "price_per_usage_descr": "$1 per 100 API requests",
+          "price_per_year": 70,
+          "rating": 0,
+          data_urls: [
+            0: {url: "https://drive.google.com/some_file_location1"},
+            1: {url: "https://drive.google.com/some_file_location2"}
+          ]
         },
         {
           "name": "Product2 name",
           "descr": "Product2 description",
-          ...
-        }
+          "id": 2,
+          "price_by_request": false,
+          "price_per_month": 14,
+          "price_per_one_time": 10,
+          "price_per_usage": true,
+          "price_per_usage_descr": "$1 per 100 API requests",
+          "price_per_year": 80,
+          "rating": 0.4,
+          data_urls: [
+            0: {url: "https://drive.google.com/some_file_location3"},
+            1: {url: "https://drive.google.com/some_file_location4"}
+          ]
+        },
       ]
     }
 
